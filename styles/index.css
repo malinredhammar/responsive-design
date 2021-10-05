@@ -1,0 +1,89 @@
+.container-header {
+    /*width: 100%;
+    height: 36px;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 2,5vh;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+
+}
+
+nav {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    display: flex;
+    flex-direction: wrap;
+
+}
+
+
+
+.patagonia {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .patagonia {
+        font-size: 72px;
+    }
+    .txt {
+        font-size: 22px;
+    }
+    .logo {
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+    .patagonia {
+        font-size: 36px;
+
+    }
+    .txt {
+        font-size: 5px;
+        font-weight: 400;
+    }
+
+    
+}
+
+.txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
