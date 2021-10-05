@@ -1,7 +1,6 @@
 .container-header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav-list {
@@ -64,7 +63,9 @@ ul {
         font-weight: 400;
     }
 
-    
+    .image {
+        margin-top: 70px;
+    }
 }
 
 .txt {
@@ -77,5 +78,10 @@ ul {
 
 .image {
     text-align: center;
+    margin-top: 50px;
+}
+
+.main-txt {
+    margin-top: 150px;
 }
 
