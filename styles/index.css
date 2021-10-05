@@ -66,6 +66,10 @@ ul {
     .image {
         margin-top: 70px;
     }
+
+    .dots {
+        opacity: 1;
+    }
 }
 
 .txt {
@@ -85,3 +89,6 @@ ul {
     margin-top: 150px;
 }
 
+.dots {
+    opacity: 0;
+}
